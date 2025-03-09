@@ -1,0 +1,67 @@
+Hashtag Popularity Prediction
+
+📌 Project Overview
+
+This project analyzes Twitter data to predict hashtag popularity using Machine Learning (XGBoost, Random Forest). It also includes bot detection, sentiment analysis, and network analysis to understand Twitter trends better.
+
+🚀 Features
+
+Hashtag Popularity Prediction using XGBoost
+
+Feature Engineering: Text complexity, engagement, and time-based features
+
+Bot Detection using followers-to-friends ratio
+
+Sentiment Analysis of tweets
+
+Network Analysis: Finding influential users & hashtag co-occurrence
+
+Optimized Machine Learning Model with hyperparameter tuning
+
+📂 Project Structure
+
+├── twitter.ipynb  
+├── tweets_data.csv        ---> Original dataset        
+├── processed_tweets.csv   ---> Updated dataset
+├── potential_bot_account.csv      
+├── requirements.txt       
+├── README.md               
+
+🔧 Installation & Setup
+
+Clone this repository:
+
+git clone https://github.com/AliNaraqi/Hashtag-Popularity-Prediction.git
+cd Hashtag-Popularity-Prediction
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run the Jupyter Notebook:
+
+jupyter notebook twitter.ipynb
+
+🏆 Model Performance
+
+Optimized Accuracy: Achieved 93% using XGBoost
+
+Hyperparameter tuning via RandomizedSearchCV
+
+Feature importance analysis using SHAP
+
+💡 Future Improvements
+
+Deploying as a web app using Flask/Django
+
+Real-time hashtag trend analysis
+
+Expanding dataset for better accuracy
+
+🤝 Contributing
+
+Feel free to open issues or submit PRs for improvements!
+
+📜 License
+
+This project is open-source under the MIT License.
